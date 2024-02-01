@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Web App</title>
+    <link rel="stylesheet" href="banks.css" />
+    <style>
+      .feature {
+        padding: 50px;
+        border: 6px ridge red;
+        width: 300px;
+        margin: 20px;
+        font-weight: bold;
+        height: 175px;
+        float: left;
+        font-size: 20px;
+      }
+      #one {
+        border-radius: 10% / 50%;
+        background: lightgreen;
+      }
+      #two {
+        border-radius: 120px / 100px 10px;
+        background: lightblue;
+      }
+      #three {
+        border-radius: 50% 10em / 10% 20em;
+        background: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to SBI Online</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Accounts</a></li>
+          <li><a href="#">Transactions</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Manage Your Accounts Securely</h2>
+        <p>
+          We have the best service throughout the world,powered by fast and safe
+          transactions throughout.
+        </p>
+        <a href="#" class="cta">Get Started</a>
+      </section>
+      <section class="features">
+        <h2>Why Choose Us</h2>
+        <div class="feature">
+          <img src="secure.jpeg" alt="Secure" />
+          <h3>Secure</h3>
+          <p id="one">
+            Your money is completely safe with us,providing the best security to
+            your money is our prime focus here at SBI Bank.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="transaction.png" alt="Transactions" />
+          <h3>Transactions</h3>
+          <p id="two">
+            Secure and safe transactions ,secured by SSL tech.We provide you
+            instant fast transactions.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="support.jpeg" alt="Support" />
+          <h3>Support</h3>
+          <p id="three">
+            We provide 24X7 support to our customers throughout the year.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Banking Web App. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
